@@ -22,3 +22,46 @@
     --font-medium : 14px;
     --font-small : 12px;
 }
+
+*{
+    padding : 0;
+    margin : 0;
+}
+
+.MovieSearch_box1{
+    width : 100%;    
+    height : 350px;
+    margin-bottom: 10px;
+    /* border: 2px solid var(--darkgray-color); */
+}
+
+.movie_high_search_title{
+    width : 100%;
+    padding : 10px 20px;
+    /* border: 2px solid red; */
+    font-size : var(--font-large);
+    font-weight: bold;
+}
+
+.movie_high_search_name > div{
+    float : left;
+    list-style: none;
+}
+
+#img{
+    padding : 20px 20px;
+}
+
+#img >img{
+    display : block;
+    /* width : [width of img]; */
+    width : 130px;
+    height : 200px;
+    border : 1px solid black;
+}
+
+
+hr{
+    margin-left : 10px;
+    margin-right : 10px;
+}
